@@ -35,6 +35,11 @@
 		maxZoom: 20
 		}).addTo(map);
 	  
+	        var punto = L.marker([7.887271306, -72.473073751]).addTo(map);
+		punto.addTo(map);
+		punto.bindPopup('<center>¿Quieres Verme en 3D?</center><br> <a href="https://ingeosmart.github.io/modelo3d/" target="_blank"><center>Da click AQUI</center></a>');
+		
+	  
 		var cplanta5 = L.tileLayer('./planta55/{z}/{x}/{y}.png', {
         minZoom: 8,
         maxZoom: 20,
