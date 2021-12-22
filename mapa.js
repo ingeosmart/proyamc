@@ -5,7 +5,7 @@
 		maxZoom: 19
 		}).addTo(map);
 		
-		var csevilla = L.tileLayer('file:///C:/proyamc/sevilla2/{z}/{x}/{y}.png', {
+		var csevilla = L.tileLayer('./sevilla2/{z}/{x}/{y}.png', {
         minZoom: 8,
         maxZoom: 20,
         tms: false,
@@ -22,35 +22,35 @@
 		punto.addTo(map);
 		punto.bindPopup('<center>¿Quieres Verme en 3D?</center><br> <a href="https://ingeosmart.github.io/modelo3d/" target="_blank"><center>Da click AQUI</center></a>');
 		
-		var cplanta5 = L.tileLayer('file:///C:/proyamc/planta55/{z}/{x}/{y}.png', {
+		var cplanta5 = L.tileLayer('./planta55/{z}/{x}/{y}.png', {
         minZoom: 8,
         maxZoom: 20,
         tms: false,
         attribution: 'Equipo SIG Área Metropolitana de Cúcuta'
       }).addTo(map);
 	  
-		var cplanta4 = L.tileLayer('file:///C:/proyamc/planta44/{z}/{x}/{y}.png', {
+		var cplanta4 = L.tileLayer('./planta44/{z}/{x}/{y}.png', {
         minZoom: 8,
         maxZoom: 20,
         tms: false,
         attribution: 'Equipo SIG Área Metropolitana de Cúcuta'
       }).addTo(map);
 		
-		var cplanta3 = L.tileLayer('file:///C:/proyamc/planta33/{z}/{x}/{y}.png', {
+		var cplanta3 = L.tileLayer('./planta33/{z}/{x}/{y}.png', {
         minZoom: 10,
         maxZoom: 20,
         tms: false,
         attribution: 'Equipo SIG Área Metropolitana de Cúcuta'
       }).addTo(map);
 		
-		var cplanta2 = L.tileLayer('file:///C:/proyamc/planta22/{z}/{x}/{y}.png', {
+		var cplanta2 = L.tileLayer('./planta22/{z}/{x}/{y}.png', {
         minZoom: 8,
         maxZoom: 20,
         tms: false,
         attribution: 'Equipo SIG Área Metropolitana de Cúcuta'
       }).addTo(map);
 		
-		var cplanta1 = L.tileLayer('file:///C:/proyamc/planta11//{z}/{x}/{y}.png', {
+		var cplanta1 = L.tileLayer('./planta11//{z}/{x}/{y}.png', {
         minZoom: 8,
         maxZoom: 20,
         tms: false,
